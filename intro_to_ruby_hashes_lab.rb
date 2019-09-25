@@ -4,8 +4,7 @@ def base_hash
         best_of_2018_2019  =	{
         "Movies" => {
           :movie => "All Eyes On Me"
-          :movie => "All Eyes On Me"
-        }
+          :movie => "hobb and shaw
 	  
 	}
 	
@@ -18,8 +17,9 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-       monopoly_with_second_tier [:Movies](:place):movie => "All Eyes On Me"
-     
+       monopoly_with_second_tier [:Movies](:place)
+       :movie => "All Eyes On Me"
+      :movie => "
 
   
 end
@@ -41,4 +41,8 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
+   
+   monopoly_with_second_tier [:Movies](:place).to(eq(4) 
+          :movie => "All Eyes On Me"
+          :movie => "hobb and shaw                    
 end
