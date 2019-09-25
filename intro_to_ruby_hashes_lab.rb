@@ -22,7 +22,6 @@ def monopoly_with_second_tier
      
 
   
-  
 end
 
 def monopoly_with_third_tier
@@ -33,8 +32,7 @@ def monopoly_with_third_tier
   
   
   
-       monopoly_with_second_tier [:Movies](:place)
-     
+       monopoly_with_second_tier [:Movies](:place).to(eq(4)
   
 end
 
