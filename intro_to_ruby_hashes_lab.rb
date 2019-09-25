@@ -18,7 +18,7 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-       monopoly_with_second_tier [:Movies](:place)
+       monopoly_with_second_tier [:Movies](:place):movie => "All Eyes On Me"
      
 
   
