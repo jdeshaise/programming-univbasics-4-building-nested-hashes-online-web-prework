@@ -4,7 +4,7 @@ def base_hash
         best_of_2018_2019  =	{
         "Movies" => {
           :movie => "All Eyes On Me"
-          :movie => "Hobb and Shaw"
+          :movie => "All Eyes On Me"
         }
 	  
 	}
